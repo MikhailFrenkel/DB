@@ -1,19 +1,19 @@
-CREATE DATABASE Mikhail_Frenkel_DB;
+CREATE DATABASE [Mikhail_Frenkel_DB];
 GO
 
-CREATE SCHEMA scales;
+CREATE SCHEMA [scales];
 GO
 
-CREATE SCHEMA persons;
+CREATE SCHEMA [persons];
 GO
 
-CREATE TABLE scales.Orders (OrderNum INT NULL);
+CREATE TABLE [scales].[Orders] (OrderNum INT NULL);
 
-BACKUP DATABASE Mikhail_Frenkel_DB TO DISK='D:\ó÷¸áà\4 êóðñ\ÁÄ\Lab1\Mikhail_Frenkel_DB.bak';
+BACKUP DATABASE [Mikhail_Frenkel_DB] TO DISK='D:\ó÷¸áà\4 êóðñ\ÁÄ\Lab1\Mikhail_Frenkel_DB.bak';
 GO
 
-DROP DATABASE Mikhail_Frenkel_DB;
+DROP DATABASE [Mikhail_Frenkel_DB];
 GO
 
-RESTORE DATABASE Mikhail_Frenkel_DB FROM DISK='D:\ó÷¸áà\4 êóðñ\ÁÄ\Lab1\Mikhail_Frenkel_DB.bak';
+RESTORE DATABASE [Mikhail_Frenkel_DB] FROM DISK='D:\ó÷¸áà\4 êóðñ\ÁÄ\Lab1\Mikhail_Frenkel_DB.bak';
 GO
